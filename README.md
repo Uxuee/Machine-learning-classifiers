@@ -512,7 +512,7 @@ sns.heatmap(df.corr(), annot=True, cmap="YlGnBu", annot_kws={"size":15})
 
 
     
-![png](output_27_1.png)
+![png](output/output_27_1.png)
     
 
 
@@ -549,7 +549,7 @@ plt.show()
 
 
     
-![png](output_33_0.png)
+![png](output/output_33_0.png)
     
 
 
@@ -571,7 +571,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_37_0.png)
+![png](output/output_37_0.png)
     
 
 
@@ -608,7 +608,7 @@ for i in range(10):
 
 
     
-![png](output_39_1.png)
+![png](output/output_39_1.png)
     
 
 
@@ -630,7 +630,7 @@ for i in range(10):
 
 
     
-![png](output_39_3.png)
+![png](output/output_39_3.png)
     
 
 
@@ -652,7 +652,7 @@ for i in range(10):
 
 
     
-![png](output_39_5.png)
+![png](output/output_39_5.png)
     
 
 
@@ -674,7 +674,7 @@ for i in range(10):
 
 
     
-![png](output_39_7.png)
+![png](output/output_39_7.png)
     
 
 
@@ -696,7 +696,7 @@ for i in range(10):
 
 
     
-![png](output_39_9.png)
+![png](output/output_39_9.png)
     
 
 
@@ -718,7 +718,7 @@ for i in range(10):
 
 
     
-![png](output_39_11.png)
+![png](output/output_39_11.png)
     
 
 
@@ -740,7 +740,7 @@ for i in range(10):
 
 
     
-![png](output_39_13.png)
+![png](output/output_39_13.png)
     
 
 
@@ -762,7 +762,7 @@ for i in range(10):
 
 
     
-![png](output_39_15.png)
+![png](output/output_39_15.png)
     
 
 
@@ -784,7 +784,7 @@ for i in range(10):
 
 
     
-![png](output_39_17.png)
+![png](output/output_39_17.png)
     
 
 
@@ -806,7 +806,7 @@ for i in range(10):
 
 
     
-![png](output_39_19.png)
+![png](output/output_39_19.png)
     
 
 
@@ -982,7 +982,7 @@ for i in range(10):
 
 
     
-![png](output_50_0.png)
+![png](output/output_50_0.png)
     
 
 
@@ -992,7 +992,7 @@ for i in range(10):
 
 
     
-![png](output_50_2.png)
+![png](output/output_50_2.png)
     
 
 
@@ -1002,7 +1002,7 @@ for i in range(10):
 
 
     
-![png](output_50_4.png)
+![png](output/output_50_4.png)
     
 
 
@@ -1012,7 +1012,7 @@ for i in range(10):
 
 
     
-![png](output_50_6.png)
+![png](output/output_50_6.png)
     
 
 
@@ -1022,7 +1022,7 @@ for i in range(10):
 
 
     
-![png](output_50_8.png)
+![png](output/output_50_8.png)
     
 
 
@@ -1032,7 +1032,7 @@ for i in range(10):
 
 
     
-![png](output_50_10.png)
+![png](output/output_50_10.png)
     
 
 
@@ -1042,7 +1042,7 @@ for i in range(10):
 
 
     
-![png](output_50_12.png)
+![png](output/output_50_12.png)
     
 
 
@@ -1052,7 +1052,7 @@ for i in range(10):
 
 
     
-![png](output_50_14.png)
+![png](output/output_50_14.png)
     
 
 
@@ -1062,7 +1062,7 @@ for i in range(10):
 
 
     
-![png](output_50_16.png)
+![png](output/output_50_16.png)
     
 
 
@@ -1072,7 +1072,7 @@ for i in range(10):
 
 
     
-![png](output_50_18.png)
+![png](output/output_50_18.png)
     
 
 
@@ -1331,7 +1331,7 @@ ac0 =accuracy_score(val_y, logmodel.predict(val_X))
 
 
     
-![png](output_69_0.png)
+![png](output/output_69_0.png)
     
 
 
@@ -1449,7 +1449,7 @@ ac1 =accuracy_score(val_y, best_LR.predict(val_X))
 
 
     
-![png](output_85_0.png)
+![png](output/output_85_0.png)
     
 
 
@@ -1578,7 +1578,7 @@ ac1b =accuracy_score(val_y, best_lr.predict(val_X))
 
 
     
-![png](output_102_0.png)
+![png](output/output_102_0.png)
     
 
 
@@ -1658,7 +1658,7 @@ ac2 =accuracy_score(val_y, decision_tree_model.predict(val_X))
 
 
     
-![png](output_111_0.png)
+![png](output/output_111_0.png)
     
 
 
@@ -1768,7 +1768,7 @@ ac3 =accuracy_score(val_y, best_DTC.predict(val_X))
 
 
     
-![png](output_125_0.png)
+![png](output/output_125_0.png)
     
 
 
@@ -1884,7 +1884,7 @@ ac3b =accuracy_score(val_y, best_dtc.predict(val_X))
 
 
     
-![png](output_138_0.png)
+![png](output/output_138_0.png)
     
 
 
@@ -1961,7 +1961,7 @@ ac4 =accuracy_score(val_y, rf_model.predict(val_X))
 
 
     
-![png](output_146_0.png)
+![png](output/output_146_0.png)
     
 
 
@@ -2087,7 +2087,7 @@ ac5 =accuracy_score(val_y, best_RFC.predict(val_X))
 
 
     
-![png](output_160_0.png)
+![png](output/output_160_0.png)
     
 
 
@@ -2217,7 +2217,7 @@ ac5b =accuracy_score(val_y, best_rfc.predict(val_X))
 
 
     
-![png](output_173_0.png)
+![png](output/output_173_0.png)
     
 
 
@@ -2686,7 +2686,7 @@ plt.show()
 
 
     
-![png](output_182_0.png)
+![png](output/output_182_0.png)
     
 
 
@@ -2704,7 +2704,7 @@ plt.show()
 
 
     
-![png](output_183_0.png)
+![png](output/output_183_0.png)
     
 
 
@@ -2762,7 +2762,7 @@ ry6=tprdtree
 
 
     
-![png](output_188_0.png)
+![png](output/output_188_0.png)
     
 
 
@@ -3692,7 +3692,7 @@ plt.show()
 
 
     
-![png](output_203_0.png)
+![png](output/output_203_0.png)
     
 
 
@@ -3710,7 +3710,7 @@ plt.show()
 
 
     
-![png](output_204_0.png)
+![png](output/output_204_0.png)
     
 
 
@@ -3767,7 +3767,7 @@ plt.show()
 
 
     
-![png](output_209_0.png)
+![png](output/output_209_0.png)
     
 
 
@@ -4311,7 +4311,7 @@ plt.show()
 
 
     
-![png](output_225_0.png)
+![png](output/output_225_0.png)
     
 
 
@@ -4329,7 +4329,7 @@ plt.show()
 
 
     
-![png](output_226_0.png)
+![png](output/output_226_0.png)
     
 
 
@@ -4386,7 +4386,7 @@ plt.show()
 
 
     
-![png](output_231_0.png)
+![png](output/output_231_0.png)
     
 
 
@@ -4486,7 +4486,7 @@ ac8 =accuracy_score(val_y, gbc.predict(val_X))
 
 
     
-![png](output_241_0.png)
+![png](output/output_241_0.png)
     
 
 
@@ -4605,7 +4605,7 @@ ac9 =accuracy_score(val_y, best_GBC.predict(val_X))
 
 
     
-![png](output_255_0.png)
+![png](output/output_255_0.png)
     
 
 
@@ -4734,7 +4734,7 @@ ac9b =accuracy_score(val_y, best_gbc.predict(val_X))
 
 
     
-![png](output_270_0.png)
+![png](output/output_270_0.png)
     
 
 
@@ -4806,7 +4806,7 @@ ac10 =accuracy_score(val_y, KNC.predict(val_X))
 
 
     
-![png](output_278_0.png)
+![png](output/output_278_0.png)
     
 
 
@@ -4914,7 +4914,7 @@ ac11 =accuracy_score(val_y, best_KNN.predict(val_X))
 
 
     
-![png](output_292_0.png)
+![png](output/output_292_0.png)
     
 
 
@@ -5028,7 +5028,7 @@ ac11b =accuracy_score(val_y, best_knn.predict(val_X))
 
 
     
-![png](output_306_0.png)
+![png](output/output_306_0.png)
     
 
 
@@ -5178,7 +5178,7 @@ plt.show()
 
 
     
-![png](output_324_0.png)
+![png](output/output_324_0.png)
     
 
 
@@ -5206,7 +5206,7 @@ plt.show()
 
 
     
-![png](output_326_0.png)
+![png](output/output_326_0.png)
     
 
 
@@ -5234,7 +5234,7 @@ plt.show()
 
 
     
-![png](output_328_0.png)
+![png](output/output_328_0.png)
     
 
 
@@ -5287,7 +5287,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_334_0.png)
+![png](output/output_334_0.png)
     
 
 
@@ -5472,7 +5472,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_348_0.png)
+![png](output/output_348_0.png)
     
 
 
@@ -5735,7 +5735,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_368_0.png)
+![png](output/output_368_0.png)
     
 
 
@@ -6008,7 +6008,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_386_0.png)
+![png](output/output_386_0.png)
     
 
 
@@ -6247,7 +6247,7 @@ fig.tight_layout(pad=2.0)
 
 
     
-![png](output_398_0.png)
+![png](output/output_398_0.png)
     
 
 
